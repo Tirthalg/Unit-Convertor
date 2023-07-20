@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: #e9e9e9;
+    font-family: Handlee;
+    font-weight: 900;
+    background-image: url('./img/back.jpg');
+}
+.card{
+    transition-duration: 200ms;
+    width: 90%;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 8px;
+    margin-bottom: 2%;
+    font-size: xx-large;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size:auto 110%;
+    background-position: right;
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+    color: #30bced;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+.card:hover{
+    background-color: lightseagreen;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 ;
+}
+.card:nth-of-type(odd){
+    color: white;
+}.card:nth-of-type(even){
+    color: black;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3%;
+    padding-top: 0%;
+}
+
+@media only screen and (min-width: 600px) {
+    .card{
+        width: 45%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .card{
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .card{
+        width: 15%;
+    }
+}
+.curr{
+    background-color: green;
+    background-image: url('/img/curr.png');
+}
+.vol{
+    background-color: lightskyblue;
+    background-image: url('/img/vol.png');
+}
+.len{
+    background-color: gold;
+    background-image: url('/img/scale.png');
+}
+.wei{
+    background-color: red;
+    background-image: url("./img/weigh.png");  
+}
+.temp{
+    background-color: blueviolet;
+    background-image: url("./img/temp.png");  
+}
+.ene{
+    background-color: orange;
+    background-image: url("./img/energy.png");  
+}
+.area{
+    background-color: lightgreen;
+    background-image: url("./img/area.png");  
+}
+.speed{
+    background-color: rebeccapurple;
+    background-image: url("./img/speed.png");  
+}
+.time{
+    background-color: white;
+    background-image: url("./img/time.png");  
+}
+.pw{
+    background-color: darkorange;
+    background-image: url("./img/power.png");  
+}
+.data{
+    background-color: lightgray;
+    background-image: url("./img/data.png");  
+}
+.pres{
+    background-color: darkblue;
+    background-image: url("./img/pressure.png");  
+}
+.ang{
+    background-color: darkred;
+    background-image: url("./img/angle.png");  
+}
+::-webkit-scrollbar{
+    width: 2px;
+    background-color: black;
+}
+.content{
+    width: 100vw;
+    padding: 0%;
+    height: 100vh;
+}
+.ioparts{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.form{
+    font-family: Handlee;
+    font-size: x-large;
+    width: 400px;
+    height: 80px;
+    margin-bottom: 2%;
+    border: 4px #30bced solid;
+    border-radius: 8px;
+    text-align: center;
+}
+#side{
+    display: flex;
+    flex-direction: row;
+    max-height: 100vh;
+}
+.sidebar{
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    background-color: rgba(0, 66, 136, 0.851);
+    display: block;
+    padding: 0%;
+    color: whitesmoke;
+    /* width: 18%; */
+    position: absolute;
+    height: 100%;
+    z-index: 99;
+    font-size: larger;
+    text-align: center;
+    margin-top: -200vh;
+    width: 100%;
+}
+.item{
+    transition-duration: 200ms;
+    display: block;
+    margin: 18px;
+}
+.item:hover{
+    cursor: pointer;
+    color: greenyellow;
+}
+i{
+    margin-right: 5px;
+}
+button{
+    background-color: transparent;
+    height: fit-content;
+    margin-left: 3%;
+    position: absolute;
+    border: none;
+    left: 0;
+    font-size: xx-large;
+    z-index: 0;
+}
+#h{
+    font-size: xx-large;
+    height: fit-content;
+    display: inline;
+}
+.ioparts>div:nth-child(1){
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: -2%;
+}
+.ioparts:nth-of-type(1){
+    height: 40%;
+}

@@ -1,0 +1,142 @@
+[
+    {
+      "name": "Weight and Mass",
+      "icon": "fa-scale-unbalanced",
+      "units": [
+        "Carats",
+        "Milligrams",
+        "Centigrams",
+        "Decigrams",
+        "grams",
+        "Decagrams",
+        "Hectograms",
+        "Kilograms",
+        "Metric Tonnes",
+        "Ounces",
+        "Pounds",
+        "Stone",
+        "Short tons (US)",
+        "Long tons(UK)"
+      ]
+    },
+    {
+      "name": "Energy",
+      "icon": "fa-solar-panel",
+      "units": [
+        "Electron volts",
+        "Joules",
+        "Kilojoules",
+        "Thermal calories",
+        "Food Calories",
+        "Foot-pounds",
+        "British Thermal units"
+      ]
+    },
+    {
+      "name": "Currency",
+      "icon": "fa fa-coins",
+      "units": [
+        "",
+        ""
+      ]
+    },
+    {
+      "name": "Volume",
+      "icon": "fa-cube",
+      "units": [
+        "Millilitres",
+        "Cubic centimetres",
+        "Litres",
+        "Cubic metres",
+        "Teaspoons (US)",
+        "Tablespoons (US)",
+        "Fluid Ounces (US)",
+        "Cups (US)",
+        "Pints (US)",
+        "Quarts (US)",
+        "Gallons (US)",
+        "Cubic inches",
+        "Cubic feet",
+        "Cubic yards",
+        "Teaspoons (UK)",
+        "Tablespoons (UK)",
+        "Fluid Ounces (UK)",
+        "Pints (UK)",
+        "Quarts (UK)",
+        "Gallons (UK)"
+      ]
+    },
+    {
+      "name": "Temperature",
+      "icon": "fa-temperature-empty",
+      "units": [
+        "Celcius",
+        "Fahrenheit",
+        "Kelvin"
+      ]
+    },
+    {
+      "name": "Length",
+      "icon": "fa-ruler",
+      "units": [
+        "",
+        ""
+      ]
+    },
+    {
+      "name": "Speed",
+      "icon": "fa-gauge-high",
+      "units": [
+        "",
+        ""
+      ]
+    },
+    {
+      "name": "Area",
+      "icon": "fa-square",
+      "units": [
+        "",
+        ""
+      ]
+    },
+    {
+      "name": "Power",
+      "icon": "fa-charging-station",
+      "units": [
+        "",
+        ""
+      ]
+    },
+    {
+      "name": "Time",
+      "icon": "fa-hourglass-half",
+      "units": [
+        "",
+        ""
+      ]
+    },
+    {
+      "name": "Pressure",
+      "icon": "fa-gauge-simple",
+      "units": [
+        "",
+        ""
+      ]
+    },
+    {
+      "name": "Data",
+      "icon": "fa-hard-drive",
+      "units": [
+        "",
+        ""
+      ]
+    },
+    {
+      "name": "Angle",
+      "icon": "fa-compass-drafting",
+      "units": [
+        "",
+        ""
+      ]
+    }
+  ]
