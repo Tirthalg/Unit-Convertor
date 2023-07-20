@@ -23,21 +23,18 @@
       "name": "Energy",
       "icon": "fa-solar-panel",
       "units": [
-        "Electron volts",
-        "Joules",
-        "Kilojoules",
-        "Thermal calories",
-        "Food Calories",
-        "Foot-pounds",
-        "British Thermal units"
-      ]
-    },
-    {
-      "name": "Currency",
-      "icon": "fa fa-coins",
-      "units": [
-        "",
-        ""
+        "Joule (J)",
+        "Kilojoule (kJ)",
+        "Megajoule (MJ)",
+        "Gigajoule (GJ)",
+        "Terajoule (TJ)",
+        "Petajoule (PJ)",
+        "British Thermal Unit (BTU)",
+        "Calorie (cal)",
+        "Kilocalorie (kcal)",
+        "Electronvolt (eV)",
+        "Watt-hour (Wh)",
+        "Kilowatt-hour (kWh)"
       ]
     },
     {
@@ -79,64 +76,184 @@
       "name": "Length",
       "icon": "fa-ruler",
       "units": [
-        "",
-        ""
+        "Meter (m)",
+        "Kilometer (km)",
+        "Centimeter (cm)",
+        "Millimeter (mm)",
+        "Micrometer (μm)",
+        "Nanometer (nm)",
+        "Inch (in)",
+        "Foot (ft)",
+        "Yard (yd)",
+        "Mile (mi)",
+        "Nautical Mile (nmi)",
+        "Angstrom (Å)",
+        "Light-Year (ly)",
+        "Parsec (pc)",
+        "Fathom (fathom)",
+        "Hand (hand)",
+        "Chain (chain)",
+        "Furlong (furlong)",
+        "Astronomical Unit (AU)",
+        "Astronomical League (AL)",
+        "Femtometer (fm)",
+        "Attometer (am)",
+        "Megameter (Mm)",
+        "Gigameter (Gm)",
+        "Terameter (Tm)",
+        "Petameter (Pm)",
+        "Exameter (Em)",
+        "Zettameter (Zm)",
+        "Yottameter (Ym)",
+        "Decimeter (dm)",
+        "Decameter (dam)",
+        "Hectometer (hm)",
+        "Picometer (pm)"
       ]
     },
     {
       "name": "Speed",
       "icon": "fa-gauge-high",
       "units": [
-        "",
-        ""
+        "Meters per second (m/s)",
+        "Kilometers per hour (km/h)",
+        "Miles per hour (mph)",
+        "Feet per second (ft/s)",
+        "Knot (nautical mile per hour)",
+        "Mach (speed of sound ratio)",
+        "Feet per minute (ft/min)",
+        "Inches per second (in/s)",
+        "Miles per second (mi/s)",
+        "Yards per second (yd/s)",
+        "Kilometers per second (km/s)"
       ]
     },
     {
       "name": "Area",
       "icon": "fa-square",
       "units": [
-        "",
-        ""
+        "Square meter (m²)",
+        "Square kilometer (km²)",
+        "Square centimeter (cm²)",
+        "Square millimeter (mm²)",
+        "Hectare (ha)",
+        "Acre (ac)",
+        "Square inch (in²)",
+        "Square foot (ft²)",
+        "Square yard (yd²)",
+        "Square mile (mi²)",
+        "Square nautical mile (nmi²)",
+        "Are (a)",
+        "Square decimeter (dm²)",
+        "Square decameter (dam²)",
+        "Square hectometer (hm²)",
+        "Square picometer (pm²)",
+        "Square megameter (Mm²)",
+        "Square gigameter (Gm²)"
       ]
     },
     {
       "name": "Power",
       "icon": "fa-charging-station",
       "units": [
-        "",
-        ""
+        "Watt (W)",
+        "Kilowatt (kW)",
+        "Megawatt (MW)",
+        "Gigawatt (GW)",
+        "Terawatt (TW)",
+        "Horsepower (hp)",
+        "Calories per second (cal/s)",
+        "BTU per hour (BTU/h)",
+        "Foot-pounds per minute (ft-lb/min)",
+        "Joule per second (J/s)",
+        "BTU per minute (BTU/min)"
       ]
     },
     {
       "name": "Time",
       "icon": "fa-hourglass-half",
       "units": [
-        "",
-        ""
+        "Second (s)",
+        "Millisecond (ms)",
+        "Microsecond (μs)",
+        "Nanosecond (ns)",
+        "Picosecond (ps)",
+        "Minute (min)",
+        "Hour (hr)",
+        "Day (day)",
+        "Week (week)",
+        "Month (month)",
+        "Year (year)"
       ]
     },
     {
       "name": "Pressure",
       "icon": "fa-gauge-simple",
       "units": [
-        "",
-        ""
+        "Pascal (Pa)",
+        "Kilopascal (kPa)",
+        "Megapascal (MPa)",
+        "Gigapascal (GPa)",
+        "Atmosphere (atm)",
+        "Bar (bar)",
+        "Millibar (mbar)",
+        "Torr (Torr) / Millimeters of Mercury (mmHg)",
+        "Pound per square inch (psi)",
+        "Kilopound per square inch (ksi)"
       ]
     },
     {
       "name": "Data",
       "icon": "fa-hard-drive",
       "units": [
-        "",
-        ""
+        "Bit (b)",
+        "Byte (B)",
+        "Kilobit (Kb)",
+        "Kilobyte (KB)",
+        "Kibibit (Kib)",
+        "Kibibyte (KiB)",
+        "Megabit (Mb)",
+        "Megabyte (MB)",
+        "Mebibit (Mib)",
+        "Mebibyte (MiB)",
+        "Gigabit (Gb)",
+        "Gigabyte (GB)",
+        "Gibibit (Gib)",
+        "Gibibyte (GiB)",
+        "Terabit (Tb)",
+        "Terabyte (TB)",
+        "Tebibit (Tib)",
+        "Tebibyte (TiB)",
+        "Petabit (Pb)",
+        "Petabyte (PB)",
+        "Pebibit (Pib)",
+        "Pebibyte (PiB)",
+        "Exabit (Eb)",
+        "Exabyte (EB)",
+        "Exbibit (Eib)",
+        "Exbibyte (EiB)",
+        "Zettabit (Zb)",
+        "Zettabyte (ZB)",
+        "Zebibit (Zib)",
+        "Zebibyte (ZiB)",
+        "Yottabit (Yb)",
+        "Yottabyte (YB)",
+        "Yobibit (Yib)",
+        "Yobibyte (YiB)"
       ]
     },
     {
       "name": "Angle",
       "icon": "fa-compass-drafting",
       "units": [
-        "",
-        ""
+        "Degree (°)",
+        "Radian (rad)",
+        "Gradian (grad)",
+        "Arcminute (arcmin)",
+        "Arcsecond (arcsec)",
+        "Milliradian (mrad)",
+        "Microradian (μrad)",
+        "Revolution (rev)"
       ]
     }
   ]

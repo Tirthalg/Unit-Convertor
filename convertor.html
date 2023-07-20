@@ -7,44 +7,31 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body id="side">
-    <section class="sidebar" onclick="nclose()">
-        <div onclick="nclose()" name="close" id="close" class="item">
-            <i class="fas fa-xmark"></i> 
-            Close
-        </div>
-    
-        <!-- <div class="item" name="">
-            <i class="fas"></i>    
-        </div> -->
-    </section>
+<body >
+    <section class="sidebar" onclick="nclose()"></section>
     <section class="content">
         <div class="ioparts">
-            <div>
-                <button class="" onclick="nopen()">☰</button>
-                <h1 id="h"><?php echo $type?> Convertor</h1>
+            <div id="header">
+                <button onclick="nopen()">☰</button>
+                <h1 id="h"></h1>
             </div>
             <div class="ioparts">
-                <select name="unit1" id="unit1" class="form">
-                </select>
+                <select name="unit1" id="unit1" class="form"></select>
                 <input type="number" name="amount1" id="amount1" class="form">
             </div>
         </div>
-        <div class="ioparts">
+        <div class="ioparts" id="outputs">
             
         </div>
     </section>
     <script src="jquery-3.7.0.min.js"></script>
     <script src="index.js" type="module"></script>
-    <script src="sidebar.js" type="module"></script>
     <script>
         function nopen() {
-            console.log("open");
             $(".sidebar").css("margin-top" , "0%");
         }
         
         function nclose() {
-            console.log("click")
             $(".sidebar").css("margin-top" , "-150vh");
         }
     </script>
