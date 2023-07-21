@@ -9,20 +9,18 @@
 </head>
 <body >
     <section class="sidebar" onclick="nclose()"></section>
-    <section class="content">
+    <div class="card" id="flash" >Copied!</div>
+
+    <section>
         <div class="ioparts">
-            <div id="header">
-                <button onclick="nopen()">☰</button>
-                <h1 id="h"></h1>
-            </div>
-            <div class="ioparts">
+            <button onclick="nopen()" id="ham">☰</button>
+            <h1 id="h"></h1>
+            <div class="flex">
                 <select name="unit1" id="unit1" class="form"></select>
-                <input type="number" name="amount1" id="amount1" class="form">
+                <input  type="number" name="amount1" id="amount1" class="form" placeholder="0">
             </div>
         </div>
-        <div class="ioparts" id="outputs">
-            
-        </div>
+        <div class="ioparts flex" id="outputs"></div>
     </section>
     <script src="jquery-3.7.0.min.js"></script>
     <script src="index.js" type="module"></script>
@@ -32,7 +30,7 @@
         }
         
         function nclose() {
-            $(".sidebar").css("margin-top" , "-150vh");
+            $(".sidebar").css("margin-top" , "-200vh");
         }
     </script>
 </body>

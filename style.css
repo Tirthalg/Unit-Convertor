@@ -26,7 +26,7 @@ body,html{
     background-size:auto 110%;
     background-position: right;
 }
-h1{
+#heading{
     text-align: center;
     font-size: 5rem;
     color: #30bced;
@@ -104,29 +104,6 @@ h1{
     width: 2px;
     background-color: black;
 }
-.content{
-    display: block;
-    min-height:auto;
-}
-.ioparts{
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 120px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.form{
-    font-family: Handlee;
-    font-size: 1.5rem;
-    width: 350px;
-    height: 70%;
-    margin-bottom: 2%;
-    border: 4px #30bced solid;
-    border-radius: 8px;
-    text-align: center;
-}
 .sidebar{
     transition-duration: 500ms;
     transition-timing-function: ease-in-out;
@@ -136,7 +113,6 @@ h1{
     color: whitesmoke;
     /* width: 18%; */
     position: absolute;
-    height: 100%;
     z-index: 99;
     font-size: larger;
     text-align: center;
@@ -144,7 +120,7 @@ h1{
     width: 100%;
 }
 .item{
-    transition-duration: 200ms;
+    transition-duration: 150ms;
     display: block;
     margin: 18px;
 }
@@ -155,44 +131,57 @@ h1{
 i{
     margin-right: 5px;
 }
-button{
-    cursor: pointer;
-    background-color: transparent;
-    height: fit-content;
-    margin-left: 3%;
-    position: absolute;
-    border: none;
-    left: 0;
-    font-size: xx-large;
-    z-index: 0;
-}
-#h{
-    font-size: xx-large;
-    height: fit-content;
-    display: inline;
+
+
+
+.ioparts{
+    padding: 2%;
 }
 #header{
-    width: 100%;
-    justify-content: center;
-    align-items: center;
     display: flex;
-    margin-top: -2%;
 }
-.ioparts:nth-of-type(1){
-    height: 25%;
+#ham{
+    background-color: transparent;
+    position: absolute;
+    left: 3%;
+    top:15px;
+    font-size: x-large;
+    border: none;
+}
+#ham:hover{
+    cursor: pointer;
+}
+#h{
+    color:#30bced;
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.form{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 60px;
+    text-align: center;
+    font-family: Handlee;
+    font-size: 1.5rem;
+    font-weight: 900;
+    border: 2px black solid;
 }
 .small{
-    height: 60px;
-    margin: 15px;
+    width: 90%;
     background-color: white;
-    color: black;
-    flex-wrap: wrap;
-    position: relative;
-}
-.column{
-    flex: 90%;
-}
-#outputs{
+    height: 70px;
+    margin: 15px;
 }
 
 
@@ -200,20 +189,50 @@ button{
     .mod{
         width: 45%;
     }
-    .column{
+    .form{
+        width: 60%;
+    }
+    .flex{
+        flex-direction: row;
+    }
+    .small{
         flex: 40%;
     }
-}
+    #unit1{
+        width: 25%;
+    }
+    
 @media only screen and (min-width: 992px) {
     .mod{
         width: 30%;
     }
-    .column{
-        flex: 22%;
+    .small{
+        flex: 30%;
     }
 }
 @media only screen and (min-width: 1200px) {
     .mod{
         width: 22%;
     }
+    .small{
+        flex: 22%;
+    }
+}
+}
+
+#flash{
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    margin: 10%;
+    position: absolute;
+    background-color: white;
+    z-index: 100;
+    margin-top: 8px;
+    display: none;
+}
+#flash:hover{
+    background-color: white;
+    cursor: default;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
