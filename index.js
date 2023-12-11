@@ -1,7 +1,6 @@
 import data from './data.json' assert {type:'json'};
 const type = new URLSearchParams(window.location.search).get('type');
 if(type !== null) document.title = type;
-else    window.location.href = "./convertor.html?type=Weight and Mass";
 
 $(document).ready(function(){
     $("#h").text(type+" Convertor")
